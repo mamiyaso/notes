@@ -617,7 +617,7 @@ graph TD
     A[Bileşen Örneği Oluşturuldu] --> B[beforeCreate]
     B --> C[Reaktif Veriler Başlatıldı]
     C --> D[created]
-    D --> E{El var mı?}
+    D --> E{Şablon var mı?}
     E -->|Evet| F[beforeMount]
     E -->|Hayır| G[Şablon Derlendi]
     G --> F
